@@ -5,8 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: -main
-    
+    branches: 
+      - main
+
 jobs:
   Build:
     runs-on: ubuntu-latest
